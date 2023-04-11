@@ -29,7 +29,7 @@ public class HarmonicNumber {
 		/*
 		 * for loop to get nth harmonic term
 		 */
-		for (int i = 1; i <= number; i++) {
+		for (int i = 1; i <= number; i++){
 			sum += (double) 1 / i;
 		}
 		System.out.println("The " + number + " harmonic term is " + sum);
